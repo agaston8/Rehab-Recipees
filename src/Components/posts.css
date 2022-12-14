@@ -1,0 +1,36 @@
+#recipeList {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipeContainer {
+    border: 1px solid black;
+    /* box-shadow: 10px; */
+    margin-bottom: 20px;
+    width:30%;
+    border-radius:10px;
+}
+
+h3 {
+    background-color: #F4A460;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+}
+
+.author {
+    background-color:#fbdbc0;
+    padding: 0px;
+}
+
+#postDescription {
+    
+    padding: 4px;
+}
+
+#postDescription p {
+    margin:0px;
+}

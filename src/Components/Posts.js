@@ -1,20 +1,71 @@
 import {React} from 'react';
+import './posts.css'
 
 export default function Posts (props) {
     return (
-        <>
-            <div>
+        <div id="recipeList">
+            <div class="recipeContainer">
                 <section>
                     <h3>Recipee</h3>
-                    <span>author</span>
+                    <div class="author">author</div>
                 </section>
-                <section>
+                <section id="postDescription">
                     <p>Description</p>
-                    <span>time to make</span>
-                    <span>tags?</span>
+                    <div>Time:</div>
                 </section>
             </div>
+            <div class="recipeContainer">
+                <section>
+                    <h3>Recipee</h3>
+                    <div class="author">author</div>
+                </section>
+                <section id="postDescription">
+                    <p>Description</p>
+                    <div>Time:</div>
+                </section>
+            </div>
+            <div class="recipeContainer">
+                <section>
+                    <h3>Recipee</h3>
+                    <div class="author">author</div>
+                </section>
+                <section id="postDescription">
+                    <p>Description</p>
+                    <div>Time:</div>
+                </section>
+            </div>
+            <div class="recipeContainer">
+                <section>
+                    <h3>Recipee</h3>
+                    <div class="author">author</div>
+                </section>
+                <section id="postDescription">
+                    <p>Descriptino</p>
+                    <div>Time:</div>
+                </section>
+            </div>
+            <div class="recipeContainer">
+                <section>
+                    <h3>Recipee</h3>
+                    <div class="author">author</div>
+                </section>
+                <section id="postDescription">
+                    <p>Description</p>
+                    <div>Time:</div>
+                </section>
+            </div>
+            <div class="recipeContainer">
+                <section>
+                    <h3>Recipee</h3>
+                    <div class="author">author</div>
+                </section>
+                <section id="postDescription">
+                    <p>Description</p>
+                    <div>Time:</div>
+                </section>
+            </div>
+           
             
-        </>
+        </div>
     )
 }

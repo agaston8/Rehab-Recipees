@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function Login(props) {
     return(
@@ -10,7 +11,7 @@ export default function Login(props) {
                 <input></input>
                 <button>Submit</button>
             </form>
-            <h4>New User? Register here</h4>
+            <h4>New User? Register <Link to='/registration'>here</Link> </h4>
         </>
     )
 }

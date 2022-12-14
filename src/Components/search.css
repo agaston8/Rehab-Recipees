@@ -1,0 +1,48 @@
+#searchForm {
+    background-image: url(https://thumbs.dreamstime.com/b/citrus-food-background-variety-fruits-juice-light-blue-top-view-copy-space-flat-lay-healthy-eating-vitamin-144816213.jpg);
+    /* background-image: url(https://previews.123rf.com/images/vicushka/vicushka1904/vicushka190400084/120699922-citrus-food-background-variety-of-citrus-fruits-and-juice-on-light-blue-background-top-view-with-cop.jpg); */
+    background-size: 1000px 400px; 
+    /* background-repeat:no-repeat; */
+    background-position: center;
+    width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #searchContainer {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  #categoryContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #searchLabel {
+    padding-bottom: 20px;
+    font-size:20px;
+  }
+  #searchContainer input {
+    font-family:'Lato', sans-serif;
+    width: 200%;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  #categoryContainer label {
+    padding-right: 10px;
+  }
+  #categoryContainer select{
+    width: 100px;
+  }
