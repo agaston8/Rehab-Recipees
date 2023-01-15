@@ -1,11 +1,20 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
 
 const recipeSchema = new mongoose.Schema({
     recipeName:{
         type:String,
         required:true
     },
-    author: String,
+    author: {
+        type:String,
+        required:true
+    },
+    // {
+    //         type:Schema.Types.ObjectId,
+    //         ref:'User'
+    //     },
     description: String,
     duration: {
         time: Number,
